@@ -1,0 +1,2205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Poco">
+      <UniqueIdentifier>{1383c780-195a-4d7d-a222-8211de594d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\Dynamic">
+      <UniqueIdentifier>{3e259822-410c-4efa-ad92-8f73dc85a64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\SAX">
+      <UniqueIdentifier>{b6ff327a-83e7-420a-a6a7-5cafb7b627e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\DOM">
+      <UniqueIdentifier>{6e79ab56-21ac-4f11-90b1-4260c8150719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\XML">
+      <UniqueIdentifier>{863f353a-3526-4eca-98b7-cab55870b8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\Net">
+      <UniqueIdentifier>{1a0c9a80-1fb4-4c59-884e-8cc535e6c630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\Util">
+      <UniqueIdentifier>{df38a654-81fb-45d6-a4e2-7650ea92ef73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\Data">
+      <UniqueIdentifier>{eaa07e26-14a8-41fa-880f-764c27386221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\Json">
+      <UniqueIdentifier>{cabccc5e-b651-46c4-ab8e-63cb8c2753ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\Zip">
+      <UniqueIdentifier>{1b9ccb8c-0184-4722-9d8b-6bcbafed73e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\Crypto">
+      <UniqueIdentifier>{55129232-1a0f-46a5-b245-7db178ba1573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\MongoDB">
+      <UniqueIdentifier>{0d3887a0-fbe8-4f63-9252-b2d37ce0cbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Poco\CppUnit">
+      <UniqueIdentifier>{1156cda9-4161-44fa-b3a9-8c5cc5b3e444}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Poco\Dynamic\Pair.h">
+      <Filter>源文件\Poco\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Dynamic\Struct.h">
+      <Filter>源文件\Poco\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Dynamic\Var.h">
+      <Filter>源文件\Poco\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Dynamic\VarHolder.h">
+      <Filter>源文件\Poco\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Dynamic\VarIterator.h">
+      <Filter>源文件\Poco\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AbstractCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AbstractDelegate.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AbstractEvent.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AbstractObserver.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AbstractPriorityDelegate.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AbstractStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AccessExpirationDecorator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AccessExpireCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AccessExpireLRUCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AccessExpireStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ActiveDispatcher.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ActiveMethod.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ActiveResult.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ActiveRunnable.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ActiveStarter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Activity.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Alignment.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Any.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ArchiveStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Array.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Ascii.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ASCIIEncoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AsyncChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AtomicCounter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AutoPtr.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\AutoReleasePool.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Base32Decoder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Base32Encoder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Base64Decoder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Base64Encoder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\BasicEvent.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\BinaryReader.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\BinaryWriter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Buffer.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\BufferAllocator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\BufferedBidirectionalStreamBuf.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\BufferedStreamBuf.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Bugcheck.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ByteOrder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Channel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Checksum.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ClassLibrary.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ClassLoader.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Clock.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Condition.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Config.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Configurable.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ConsoleChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CountingStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DateTime.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DateTimeFormat.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DateTimeFormatter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DateTimeParser.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Debugger.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DefaultStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DeflatingStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Delegate.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DigestEngine.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DigestStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DirectoryIterator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DirectoryIterator_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DirectoryIterator_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DirectoryIterator_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DirectoryIterator_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DirectoryIteratorStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DirectoryWatcher.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DynamicAny.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DynamicAnyHolder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DynamicFactory.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DynamicStruct.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Environment.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Environment_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Environment_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Environment_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Environment_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Environment_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Environment_WINCE.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Error.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ErrorHandler.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Event.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Event_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Event_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Event_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\EventArgs.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\EventLogChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Exception.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ExpirationDecorator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Expire.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ExpireCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ExpireLRUCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ExpireStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FIFOBuffer.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FIFOBufferStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FIFOEvent.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FIFOStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\File.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\File_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\File_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\File_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\File_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\File_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\File_WINCE.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FileChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FileStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FileStream_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FileStream_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FileStreamFactory.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Format.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Formatter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FormattingChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Foundation.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FPEnvironment.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FPEnvironment_C99.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FPEnvironment_DEC.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FPEnvironment_DUMMY.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FPEnvironment_SUN.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FPEnvironment_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FunctionDelegate.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\FunctionPriorityDelegate.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Glob.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Hash.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HashFunction.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HashMap.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HashSet.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HashStatistic.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HashTable.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HexBinaryDecoder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HexBinaryEncoder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\HMACEngine.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\InflatingStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Instantiator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\KeyValueArgs.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Latin1Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Latin2Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Latin9Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LinearHashTable.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LineEndingConverter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ListMap.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LocalDateTime.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LogFile.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LogFile_STD.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LogFile_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LogFile_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LogFile_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Logger.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LoggingFactory.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LoggingRegistry.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LogStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LRUCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\LRUStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Manifest.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MD4Engine.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MD5Engine.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MemoryPool.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MemoryStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Message.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MetaObject.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MetaProgramming.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Mutex.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Mutex_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Mutex_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Mutex_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Mutex_WINCE.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedEvent.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedEvent_Android.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedEvent_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedEvent_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedEvent_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedEvent_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedMutex.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedMutex_Android.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedMutex_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedMutex_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedMutex_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedMutex_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NamedTuple.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NestedDiagnosticContext.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NObserver.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Notification.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NotificationCenter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NotificationQueue.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NotificationStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Nullable.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NullChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NullStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NumberFormatter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NumberParser.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\NumericString.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ObjectPool.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Observer.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\OpcomChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Optional.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Path.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Path_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Path_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Path_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Path_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Path_WINCE.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PatternFormatter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PBKDF2Engine.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Pipe.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PipeImpl.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PipeImpl_DUMMY.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PipeImpl_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PipeImpl_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PipeStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Platform.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Platform_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Platform_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Platform_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Platform_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Poco.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PriorityDelegate.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PriorityEvent.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PriorityExpire.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PriorityNotificationQueue.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PriorityStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Process.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Process_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Process_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Process_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Process_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Process_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Process_WINCE.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\PurgeStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Random.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RandomStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RecursiveDirectoryIterator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RecursiveDirectoryIteratorImpl.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RefCountedObject.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RegularExpression.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RotateStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Runnable.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RunnableAdapter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RWLock.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RWLock_Android.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RWLock_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RWLock_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RWLock_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\RWLock_WINCE.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ScopedLock.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ScopedUnlock.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Semaphore.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Semaphore_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Semaphore_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Semaphore_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SHA1Engine.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedLibrary.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedLibrary_HPUX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedLibrary_UNIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedLibrary_VMS.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedLibrary_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedLibrary_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedLibrary_WIN32U.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedMemory.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedMemory_DUMMY.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedMemory_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedMemory_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SharedPtr.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SignalHandler.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SimpleFileChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SimpleHashTable.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SingletonHolder.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SortedDirectoryIterator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SplitterChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Stopwatch.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\StrategyCollection.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\StreamChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\StreamConverter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\StreamCopier.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\StreamTokenizer.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\StreamUtil.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\String.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\StringTokenizer.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SynchronizedObject.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SyslogChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Task.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TaskManager.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TaskNotification.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TeeStream.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TemporaryFile.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TextBufferIterator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TextConverter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TextEncoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TextIterator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Thread.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Thread_POSIX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Thread_VX.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Thread_WIN32.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Thread_WINCE.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ThreadLocal.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ThreadPool.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ThreadTarget.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TimedNotificationQueue.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Timer.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Timespan.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Timestamp.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Timezone.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Token.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Tuple.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\TypeList.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Types.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UnbufferedStreamBuf.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Unicode.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UnicodeConverter.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UniqueAccessExpireCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UniqueAccessExpireLRUCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UniqueAccessExpireStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UniqueExpireCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UniqueExpireLRUCache.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UniqueExpireStrategy.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UnWindows.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\URI.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\URIStreamFactory.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\URIStreamOpener.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UTF8Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UTF8String.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UTF16Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UTF32Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UTFString.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UUID.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\UUIDGenerator.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\ValidArgs.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Version.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Void.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Windows1250Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Windows1251Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Windows1252Encoding.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\WindowsConsoleChannel.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\zconf.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\zlib.h">
+      <Filter>源文件\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\Attributes.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\AttributesImpl.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\ContentHandler.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\DeclHandler.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\DefaultHandler.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\DTDHandler.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\EntityResolver.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\EntityResolverImpl.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\ErrorHandler.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\InputSource.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\LexicalHandler.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\Locator.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\LocatorImpl.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\NamespaceSupport.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\SAXException.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\SAXParser.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\WhitespaceFilter.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\XMLFilter.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\XMLFilterImpl.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\SAX\XMLReader.h">
+      <Filter>源文件\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\AbstractContainerNode.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\AbstractNode.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Attr.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\AttrMap.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\AutoPtr.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\CDATASection.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\CharacterData.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\ChildNodesList.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Comment.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Document.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DocumentEvent.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DocumentFragment.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DocumentType.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DOMBuilder.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DOMException.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DOMImplementation.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DOMObject.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DOMParser.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DOMSerializer.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DOMWriter.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\DTDMap.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Element.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\ElementsByTagNameList.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Entity.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\EntityReference.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Event.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\EventDispatcher.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\EventException.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\EventListener.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\EventTarget.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\MutationEvent.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\NamedNodeMap.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Node.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\NodeAppender.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\NodeFilter.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\NodeIterator.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\NodeList.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Notation.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\ProcessingInstruction.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\Text.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\DOM\TreeWalker.h">
+      <Filter>源文件\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\expat.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\expat_external.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\Name.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\NamePool.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\NamespaceStrategy.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\ParserEngine.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\XML.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\XMLException.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\XMLStream.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\XMLString.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\XML\XMLWriter.h">
+      <Filter>源文件\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\AbstractHTTPRequestHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\DatagramSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\DatagramSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\DialogSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\DNS.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\FilePartSource.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\FTPClientSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\FTPStreamFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HostEntry.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTMLForm.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPAuthenticationParams.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPBasicCredentials.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPBasicStreamBuf.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPBufferAllocator.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPChunkedStream.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPClientSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPCookie.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPCredentials.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPDigestCredentials.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPFixedLengthStream.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPHeaderStream.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPIOStream.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPMessage.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPRequest.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPRequestHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPRequestHandlerFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPResponse.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServer.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerConnection.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerConnectionFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerParams.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerRequest.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerRequestImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerResponse.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerResponseImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPServerSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPSessionFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPSessionInstantiator.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPStream.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPStreamFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ICMPClient.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ICMPEventArgs.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ICMPPacket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ICMPPacketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ICMPSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ICMPSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ICMPv4PacketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\IPAddress.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\IPAddressImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MailMessage.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MailRecipient.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MailStream.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MediaType.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MessageHeader.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MulticastSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MultipartReader.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\MultipartWriter.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NameValueCollection.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\Net.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NetException.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NetworkInterface.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NTPClient.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NTPEventArgs.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NTPPacket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NullPartHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\OAuth10Credentials.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\OAuth20Credentials.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ParallelSocketAcceptor.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ParallelSocketReactor.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\PartHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\PartSource.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\PartStore.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\POP3ClientSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\QuotedPrintableDecoder.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\QuotedPrintableEncoder.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\RawSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\RawSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\RemoteSyslogChannel.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\RemoteSyslogListener.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ServerSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ServerSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SMTPChannel.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SMTPClientSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\Socket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketAcceptor.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketAddress.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketAddressImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketConnector.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketDefs.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketNotification.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketNotifier.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketReactor.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SocketStream.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\StreamSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\StreamSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\StringPartSource.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\TCPServer.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\TCPServerConnection.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\TCPServerConnectionFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\TCPServerDispatcher.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\TCPServerParams.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\WebSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\WebSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\AbstractConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\Application.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\ConfigurationMapper.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\ConfigurationView.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\FilesystemConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\HelpFormatter.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\IniFileConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\IntValidator.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\JSONConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\LayeredConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\LoggingConfigurator.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\LoggingSubsystem.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\MapConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\Option.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\OptionCallback.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\OptionException.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\OptionProcessor.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\OptionSet.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\PropertyFileConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\RegExpValidator.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\ServerApplication.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\Subsystem.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\SystemConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\Timer.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\TimerTask.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\TimerTaskAdapter.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\Units.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\Util.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\Validator.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\WinRegistryConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\WinRegistryKey.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\WinService.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Util\XMLConfiguration.h">
+      <Filter>源文件\Poco\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AbstractBinder.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AbstractBinding.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AbstractExtraction.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AbstractExtractor.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AbstractPreparation.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AbstractPreparator.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AbstractSessionImpl.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\ArchiveStrategy.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\AutoTransaction.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Binding.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Bulk.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\BulkBinding.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\BulkExtraction.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Column.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Connector.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Constants.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Data.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\DataException.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Date.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\DynamicDateTime.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\DynamicLOB.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Extraction.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Limit.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\LOB.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\LOBStream.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\MetaColumn.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\PooledSessionHolder.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\PooledSessionImpl.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Position.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Preparation.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Range.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\RecordSet.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Row.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\RowFilter.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\RowFormatter.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\RowIterator.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Session.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\SessionFactory.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\SessionImpl.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\SessionPool.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\SessionPoolContainer.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\SimpleRowFormatter.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\SQLChannel.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Statement.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\StatementCreator.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\StatementImpl.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Time.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\Transaction.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Data\TypeHandler.h">
+      <Filter>源文件\Poco\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\Array.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\Handler.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\JSON.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\JSONException.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\Object.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\ParseHandler.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\Parser.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\PrintHandler.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\Query.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\Stringifier.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\Template.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\JSON\TemplateCache.h">
+      <Filter>源文件\Poco\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\AcceptCertificateHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\CertificateHandlerFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\CertificateHandlerFactoryMgr.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\ConsoleCertificateHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\Context.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPSClientSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPSSessionInstantiator.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\HTTPSStreamFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\InvalidCertificateHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\KeyConsoleHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\KeyFileHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\NetSSL.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\PrivateKeyFactory.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\PrivateKeyFactoryMgr.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\PrivateKeyPassphraseHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\RejectCertificateHandler.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SecureServerSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SecureServerSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SecureSMTPClientSession.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SecureSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SecureStreamSocket.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SecureStreamSocketImpl.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\Session.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SSLException.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\SSLManager.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\Utility.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\VerificationErrorArgs.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Net\X509Certificate.h">
+      <Filter>源文件\Poco\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Add.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\AutoDetectStream.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Compress.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Decompress.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Delete.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Keep.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ParseCallback.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\PartialStream.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Rename.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Replace.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\SkipCallback.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\Zip.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipArchive.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipArchiveInfo.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipCommon.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipDataInfo.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipException.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipFileInfo.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipLocalFileHeader.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipManipulator.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipOperation.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipStream.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Zip\ZipUtil.h">
+      <Filter>源文件\Poco\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\Cipher.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\CipherFactory.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\CipherImpl.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\CipherKey.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\CipherKeyImpl.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\Crypto.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\CryptoStream.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\CryptoTransform.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\DigestEngine.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\OpenSSLInitializer.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\RSACipherImpl.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\RSADigestEngine.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\RSAKey.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\RSAKeyImpl.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\Crypto\X509Certificate.h">
+      <Filter>源文件\Poco\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Array.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Binary.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\BSONReader.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\BSONWriter.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Connection.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Cursor.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Database.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\DeleteRequest.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Document.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Element.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\GetMoreRequest.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\InsertRequest.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\JavaScriptCode.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\KillCursorsRequest.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\Message.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\MessageHeader.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\MongoDB.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\ObjectId.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\PoolableConnectionFactory.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\QueryRequest.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\RegularExpression.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\ReplicaSet.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\RequestMessage.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\ResponseMessage.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\MongoDB\UpdateRequest.h">
+      <Filter>源文件\Poco\MongoDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\CppUnit.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\CppUnitException.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\estring.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\Guards.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\Orthodox.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\RepeatedTest.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\Test.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestCaller.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestCase.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestDecorator.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestFailure.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestResult.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestRunner.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestSetup.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TestSuite.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Poco\CppUnit\TextTestResult.h">
+      <Filter>源文件\Poco\CppUnit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
